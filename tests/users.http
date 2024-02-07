@@ -1,0 +1,19 @@
+###
+POST http://localhost:3001/api/auth/register
+content-type: application/json
+
+{
+  "firstname": "Nacho",
+  "lastname": "Menendez",
+  "email": "admin@email.es",
+  "password": "Cambiar01."
+}
+
+###
+POST http://localhost:3001/api/auth/login
+content-type: application/json
+
+{
+  "email": "admin@email.es",
+  "password": "Cambiar01."
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Aleo', serif;
+  font-size: 1.5rem;
+}
+
+body {
+  height: 100vh;
+  background-color: #344055;
+  color: #fffcf2;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
